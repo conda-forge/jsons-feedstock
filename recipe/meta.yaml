@@ -19,6 +19,7 @@ requirements:
   host:
     - python >=3.5
     - pip
+    - setuptools
   run:
     - python >=3.5
     - typish >=1.9.2
@@ -31,6 +32,7 @@ test:
     - dataclasses
     - python >= 3.6
     - pytest
+    - attrs
   source_files:
     - tests
     - test_resources
